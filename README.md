@@ -12,10 +12,10 @@ gehört NICHT hierher, sondern in den jeweiligen Worker.
 ## Installation (aus GitHub)
 
 ```
-pip install "leadkern @ git+https://github.com/justin2411/leadkern@v0.1.0"
+pip install "leadkern @ git+https://github.com/justin2411/leadkern@main"
 ```
 
-Semantische Versionierung: Tags `v0.1.0`, `v0.2.0`, … — Schlüssel-Semantik
+Semantische Versionierung über `version` in pyproject.toml (0.1.0, 0.2.0, …) — Schlüssel-Semantik
 (telefon_key, Firmennamen-Vergleichsform) ist mit der Fabrik-2-App
 abgestimmt; Änderungen daran sind ein Major-/Minor-Schritt, nie ein Patch.
 
