@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leadkern"
+version = "0.1.0"
+description = "Gemeinsame Prüf- und Normalisierungslogik der Lead-Fabriken (Lead-Maschine 2.0, M0)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dnspython>=2.4",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["leadkern*"]
